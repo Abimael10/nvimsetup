@@ -4,7 +4,7 @@ return {
 	dependencies = {'saghen/blink.cmp'},
 	config = function()
 	    local capabilities = require('blink.cmp').get_lsp_capabilities()
-	    require("lspconfig").rust_analyzer.setup {capabilities = capabilitiesa}
+	    require("lspconfig").rust_analyzer.setup {capabilities = capabilities}
 	    --require("lspconfig").lua_ls.setup {capabilities = capabilities}
 	end,
     }
