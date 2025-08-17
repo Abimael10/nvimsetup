@@ -52,6 +52,7 @@ nvimsetup/
             ├── autocomplete.lua  # Blink.cmp completion setup
             ├── lsp.lua          # LSP configuration
             ├── mini.lua         # Mini.nvim statusline
+            ├── terminal.lua    # floating terminal on top of of workspace
             ├── telescope.lua    # Telescope fuzzy finder
             └── treesitter.lua   # Treesitter syntax highlighting
 ```
@@ -88,6 +89,14 @@ nvimsetup/
 | `Ctrl+y` | Accept | Accept selected completion |
 | `Ctrl+e` | Close | Hide completion menu |
 | `Ctrl+k` | Signature | Toggle signature help |
+
+### Terminal
+| Key Combination | Action |
+|----------------|--------|
+| `Space+tt` | Opens terminal and closes it if typed again |
+| `esc+esc` | Exits insert mode inside the terminal |
+| `Ctrl+d` | Kills current terminal instance while on insert mode |
+
 
 ## 🔌 Plugins Overview
 
