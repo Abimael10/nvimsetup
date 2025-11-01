@@ -6,6 +6,10 @@ Modern Neovim configuration built on [LazyVim](https://github.com/LazyVim/LazyVi
 
 There might be several tool chains you need to get to get the health checks going, since this a setup that has many of the tooling I use for Rust, TS/JS, Python, LaTeX, Go, etc. You can still customize them to just use what you need.
 
+## Quick shots
+
+![picture1](./screenshots/Screenshot from 2025-10-31 21-24-39.png)
+
 ## Quick start
 
 - Requires Neovim 0.9+ (0.10 recommended for smooth scrolling) and a Nerd Font (icons enabled via `vim.g.have_nerd_font = true`).
