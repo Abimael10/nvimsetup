@@ -9,6 +9,8 @@ There might be several tool chains you need to get to get the health checks goin
 ## Quick shots
 
 ![picture1](./screenshots/Screenshot from 2025-10-31 21-24-39.png)
+![picture2](./screenshots/Screenshot from 2025-10-31 21-44-59.png)
+![picture3](./screenshots/Screenshot from 2025-10-31 21-51-30.png "Running an LLM inside")
 
 ## Quick start
 
