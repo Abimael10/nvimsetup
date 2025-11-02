@@ -7,6 +7,14 @@ return {
           enabled = true,
         },
       },
+      picker = {
+        sources = {
+          explorer = {
+            hidden = true,
+            ignored = true, -- include git-ignored dotfiles like .env
+          },
+        },
+      },
       image = {
         enabled = true,
         doc = {
