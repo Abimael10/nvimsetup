@@ -20,6 +20,7 @@ local scheme_presets = {
   { name = "Monokai Pro", colorscheme = "monokai-pro" },
   { name = "Moonfly", colorscheme = "moonfly" },
   { name = "Nightfly", colorscheme = "nightfly" },
+  { name = "Matrix · Dystopian", colorscheme = "matrix" },
 }
 
 local function register_selector()
