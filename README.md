@@ -31,11 +31,21 @@ There might be several tool chains you need to get to get the health checks goin
   - `<leader>fh` → `:Telescope help_tags`
   - `<leader>fd` → `:Telescope find_files` in the current directory
   - `<leader>en` → `:Telescope find_files` rooted at this config (`stdpath("config")`)
+  - `<leader>fg` → `:Telescope live_grep` (project-wide regex search)
+  - `<leader>fw` → `:Telescope grep_string` for the word under cursor (or selection in visual mode)
+- Project-wide grep (Snacks picker, LazyVim defaults): `<leader>/` and `<leader>sg` grep the root, `<leader>sG` greps the cwd, `<leader>sw` greps the word/selection, `<leader>sB` greps open buffers.
 - Terminal workflow:
   - `<C-\>` toggles the floating terminal (`toggleterm.nvim`)
   - `<leader>tt` or `:Floaterminal` opens/closes a dedicated float terminal
   - `<Esc><Esc>` leaves terminal insert mode
   - `:ToggleServe` runs `live-server` against the current file (requires the CLI to be installed)
+- Debugging (DAP, `lazyvim.plugins.extras.dap.core`; adapters auto-wired for Go, Python, Rust, Java, TS/JS):
+  - `<leader>db` toggle breakpoint, `<leader>dB` conditional breakpoint
+  - `<leader>dc` run/continue, `<leader>da` run with args, `<leader>dC` run to cursor
+  - `<leader>di` step into, `<leader>dO` step over, `<leader>do` step out
+  - `<leader>du` toggle UI, `<leader>de` eval (normal/visual), `<leader>dw` hover widget
+  - `<leader>dr` toggle REPL, `<leader>dl` run last, `<leader>dt` terminate
+  - Python: `<leader>dPt` debug test method, `<leader>dPc` debug test class
 - Formatting runs on save (`vim.g.autoformat = true`); trigger manually with `:Format`.
 - Markdown live preview (`iamcco/markdown-preview.nvim`): `:MarkdownPreview` (first run downloads the viewer via the plugin build step).
 
