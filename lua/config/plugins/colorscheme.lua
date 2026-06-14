@@ -57,7 +57,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = function(_, opts)
-      opts.colorscheme = "tokyonight-night"
+      opts.colorscheme = "matrix"
     end,
   },
   {
@@ -74,7 +74,7 @@ return {
       require("tokyonight").setup(opts)
       register_selector()
       vim.schedule(function()
-        vim.cmd.colorscheme("tokyonight-night")
+        vim.cmd.colorscheme("matrix")
       end)
     end,
   },
