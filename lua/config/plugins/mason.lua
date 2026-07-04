@@ -12,6 +12,7 @@ end
 
 local servers = {
   "bashls",
+  "elixirls",
   "gopls",
   "html",
   "jdtls",

@@ -44,7 +44,7 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lang.cmake" },
     -- { import = "lazyvim.plugins.extras.lang.docker" },
     -- { import = "lazyvim.plugins.extras.lang.dotnet" },
-    -- { import = "lazyvim.plugins.extras.lang.elixir" },
+    { import = "lazyvim.plugins.extras.lang.elixir" },
     -- { import = "lazyvim.plugins.extras.lang.elm" },
     -- { import = "lazyvim.plugins.extras.lang.ember" },
     -- { import = "lazyvim.plugins.extras.lang.erlang" },

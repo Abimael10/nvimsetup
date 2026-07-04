@@ -13,6 +13,7 @@ return {
         "bash",
         "comment",
         "css",
+        "elixir",
         "gitignore",
         "go",
         "gomod",
